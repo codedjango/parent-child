@@ -4,7 +4,7 @@ import type { TaskFilter } from '@/types'
 const currentFilter = defineModel<TaskFilter>('f', { default: 'all' })
 
 defineProps<{
-	taskFilters: TaskFilter[]
+	taskFilters: readonly TaskFilter[]
 }>()
 
 const updateFilter = (filter: TaskFilter): void => {
