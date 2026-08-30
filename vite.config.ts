@@ -10,7 +10,8 @@ export default defineConfig({
 	plugins: [vue(), VueDevTools(), tailwindcss()],
 	resolve: {
 		alias: {
-			'@': path.resolve(__dirname, './src'),
+			'@': path.resolve(import.meta.dirname, './src'),
 		},
+		tsconfigPaths: true,
 	},
 })

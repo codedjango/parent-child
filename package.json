@@ -17,10 +17,10 @@
 	},
 	"devDependencies": {
 		"@tailwindcss/vite": "^4.3.3",
-		"@types/node": "^25.9.2",
+		"@types/node": "^26.2.0",
 		"@vitejs/plugin-vue": "^6.0.8",
 		"@vue/tsconfig": "^0.9.1",
-		"oxfmt": "^0.54.0",
+		"oxfmt": "^0.64.0",
 		"oxlint": "^1.79.0",
 		"tailwindcss": "^4.3.3",
 		"typescript": "~6.0.3",
