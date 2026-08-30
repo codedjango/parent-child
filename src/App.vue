@@ -2,9 +2,9 @@
 import { ref } from 'vue'
 
 import Child from '@/components/Child.vue'
-import { TASK_FILTERS, type taskFilters } from '@/types.ts'
+import { TASK_FILTERS, type TaskFilter } from '@/types'
 
-const msg = ref<taskFilters>('all')
+const msg = ref<TaskFilter>('all')
 </script>
 
 <template>
