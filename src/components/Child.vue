@@ -13,7 +13,7 @@ const updateFilter = (filter: TaskFilter): void => {
 </script>
 
 <template>
-	<div class="flex gap-4">
+	<div class="my-4 flex gap-4 rounded border-2 px-4">
 		<button
 			@click="updateFilter(filter)"
 			v-for="(filter, index) in taskFilters"
