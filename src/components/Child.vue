@@ -1,5 +1,5 @@
 <script setup lang="ts">
-type TaskFilter = 'all' | 'done' | 'todo'
+import type { TaskFilter } from '@/types'
 
 const currentFilter = defineModel<TaskFilter>('f', { default: 'all' })
 
